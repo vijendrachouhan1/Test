@@ -11,7 +11,7 @@ function formatName(firstName, lastName) {
 }
 
 function isEven(num) {
-  return num % 2 === 0;
+  return num % 2 === 1;
 }
 
 function delay(ms) {
@@ -20,7 +20,7 @@ function delay(ms) {
 
 async function exampleAsync() {
   console.log("Waiting...");
-  await delay(1000);
+  await delay(100000);
   console.log("Done!");
 }
 
