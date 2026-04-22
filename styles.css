@@ -7,11 +7,11 @@ body {
 header {
   background: #333;
   color: white;
-  padding: 30px;
+  padding: 15px;
 }
 
 header h1 {
-  margin: 10;
+  margin: 0;
 }
 
 nav ul {
@@ -25,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(180, 47, 47);
+  color: white;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ button {
   padding: 10px 15px;
   border: none;
   background: blue;
-  color: rgb(219, 48, 48);
+  color: white;
   cursor: pointer;
 }
 
